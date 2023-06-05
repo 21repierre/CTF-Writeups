@@ -24,7 +24,7 @@ Initially, I work with this version of the picture, separating in Photoshop the 
 However, after discussing with the author the challenge, I decided to edit the script to recover RGBa pngs (Windows 11 screenshots are RGBa but the original script uses RGB): [RGBA version of the script](https://gist.github.com/21repierre/9b1626b12b8f51f91361bd40f98302f8).
 
 And a better screenshot:
-[Good result](pictures/notes-en-bas-de-page-recover-2.png)
+![Good result](pictures/notes-en-bas-de-page-recover-2.png)
 
 
 Flag: `404CTF{L3_f0rM1d@bl3_p09re35_d3s_lUm13re5}`
