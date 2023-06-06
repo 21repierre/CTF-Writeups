@@ -8,7 +8,7 @@
 | :x: | Une littérature animalière | 1000 |  |
 | :heavy_check_mark: | ASCON Marchombre | 878 | ASCON cipher. |
 | :heavy_check_mark: | [La Réponse de Voris](le-message-de-voris.py) | 960 | Reconstructed the algorithm by submitting values to the oracle. |
-| :heavy_check_mark: | [Oracle cassé](oracle-casse/README.md) | 985 | Observe that for $m<q$ the message is correctly decrypted, use dichotomy to get q. |
+| :heavy_check_mark: | [Oracle cassé](oracle-casse/README.md) | 985 | Observe that for $m < q$ the message is correctly decrypted, use dichotomy to get q. |
 | :x: | L'énigme du mal-aimé | 1000 |  |
 | :x: | Trois | 997 |  |
 | :x: | Dessine et signe | 1000 |  |
