@@ -26,7 +26,8 @@ Je me suis retourné immédiatement. Un petit bonhomme se tenait derrière moi, 
 
 This challenge is quiete simple: given 2 random points $F,G$ from an Elliptic curve of this form $y^2 = x^3 + a * x + b$, we need to recover values of $a,b$.
 
-We have a simple equation system: 
+We have a simple equation system:
+
 $$
 (E) \iff
 \begin{equation}
@@ -36,6 +37,7 @@ F_y^2 = F_x^3 + a * F_x + b
 \end{cases}\,
 \end{equation}
 $$
+
 Let $s_G = G_y^2 - G_x^3$ and $s_F = F_y^2 - F_x^3$ be, we now have
 
 $$
