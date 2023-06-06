@@ -58,6 +58,7 @@ Knowing this, it is pretty easy to recover $C$.<br>
 I already obserbed that `a` doesn't change change anything: `a` is $0$.
 And probably `b` is $1$, etc.
 What happens when we send `aaaab` ? or `aaaba` ?
+
 $$
 M_1=
 \begin{pmatrix}
@@ -76,27 +77,30 @@ M_2=
 0 \\
 \end{pmatrix}
 $$
+
 $$
 M_{c,1}=
 \begin{pmatrix}
-1*c_{51} \\
-1*c_{52} \\
-1*c_{53} \\
-1*c_{54} \\
-1*c_{55} \\
+1 * c_{51} \\
+1 * c_{52} \\
+1 * c_{53} \\
+1 * c_{54} \\
+1 * c_{55} \\
 \end{pmatrix}
 M_{c,2}=
 \begin{pmatrix}
-1*c_{41} \\
-1*c_{42} \\
-1*c_{43} \\
-1*c_{44} \\
-1*c_{45} \\
+1 * c_{41} \\
+1 * c_{42} \\
+1 * c_{43} \\
+1 * c_{44} \\
+1 * c_{45} \\
 \end{pmatrix}
 $$
+
 This way we recover each value of the $C$ matrix, invert it and get the flag!
 
 Here we get:
+
 $$
 C=
 \begin{pmatrix}
