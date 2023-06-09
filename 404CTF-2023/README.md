@@ -22,5 +22,5 @@ Challenges were divided in several categories:
 - [Web3](web3/README.md)
 
 ## My results
-
+![Certificate](pictures/certificate.png)
 ![My result](pictures/result.png)
