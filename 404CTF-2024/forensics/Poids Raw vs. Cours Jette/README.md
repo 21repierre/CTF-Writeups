@@ -172,10 +172,10 @@ Thanks to the math classes I took a few years ago, I easily recognized partial [
 This is the part that lost me, after summing $\cos^2{(a * (\text{buf}_i + k_i))} + \sin^2{(a * (\text{buf}_i + k_i))} = 1$ where $a=0.0074799825085471268$ and $k$ is an internal buffer to 
 
 $$
-\sum_{i=\text{n_received}}^{\text{0x678acf}}{ \cos^2{(a * k_i)} + \sin^2{(a * k_i)} } = \text{0x678acf} - \text{n_received} + 1
+\sum_{ i = \text{nreceived} }^{ \text{0x678acf} }{ \cos^2{(a * k_i) } + \sin^2{ (a * k_i)} } = \text{0x678acf} - \text{nreceived} + 1
 $$
 
-it verifies that this value is equal to $\text{0x678ad0}$ and that $\text{n_received} \geq 30$ which should always be true but wasn't during my tests.
+it verifies that this value is equal to $\text{0x678ad0}$ and that $\text{nreceived} \geq 30$ which should always be true but wasn't during my tests.
 
 It will then do another check on the received buffer using the same kind of logic.
 If those checks pass, th received buffer will be used as a key to decrypt some data, then assemble some C code, compile it using [tcc](https://bellard.org/tcc/), write it to memory, and allow code execution from memory.
